@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>nacionalidade</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="nas">nas</div>
+
+    <script>
+        function verificar(){
+            var pais = document.querySelector('input#pais').value
+            var nas = document.querySelector('div#nas')
+
+            if (pais === 'Brasil') {
+                nas.innerHTML = 'tu é brasileiro'
+            } else {
+                nas.innerHTML = 'tu não é brasileiro'
+            }
+        }
+    </script>
+</body>
+</html>
