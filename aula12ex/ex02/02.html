@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="02.css">
 </head>
 <body>
-    
+    <header>
+        <h1>verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>ano de nascimento
+            <input type="number" name="txtano" id="txtano">
+            </p>
+
+            <p>sexo
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+
+            <p><input type="button" value="verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="02.js"></script>
 </body>
 </html>
