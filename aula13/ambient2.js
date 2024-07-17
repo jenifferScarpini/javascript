@@ -1,5 +1,5 @@
 
-for (var c = 1; c <= 5; C++){
+for (var c = 1; c <= 5; c++){
     console.log('OI')
 }
 console.log('fim')
